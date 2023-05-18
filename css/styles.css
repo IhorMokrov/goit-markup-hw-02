@@ -1,7 +1,7 @@
 /* 
 палитра цветов
 
-main blue: #2196F3;
+main blue: #2196F3
 
 logo black: #000000
 
@@ -16,10 +16,123 @@ background-section:  grey - #F5F4FA, white - #E5E5E5
 */
 
 body {
+  background-color: #e5e5e5;
   color: #757575;
 }
 
-.navigation-list .link:hover,
-.navigation-list .link:active {
+/* Logo */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: #ffffff;
+}
+
+/* Navigation */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.header-contacts .link {
+  color: #757575;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero-container {
+  background-color: #2f303a;
+}
+.hero-title {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+}
+
+.button:hover,
+.button:active {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+}
+
+.our-team-section .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Features */
+.features .title {
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.location {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio list*/
+.portfolio .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
 }

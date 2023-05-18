@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  visibility: hidden;
+  font-size: 0;
+}
