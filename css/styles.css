@@ -1,0 +1,25 @@
+/* 
+палитра цветов
+
+main blue: #2196F3;
+
+logo black: #000000
+
+main-title-black: #212121
+main-text-grey:  #757575;
+
+white: #FFFFFF;
+
+background-hero: #2F303A
+
+background-section:  grey - #F5F4FA, white - #E5E5E5
+*/
+
+body {
+  color: #757575;
+}
+
+.navigation-list .link:hover,
+.navigation-list .link:active {
+  color: #2196f3;
+}
