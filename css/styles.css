@@ -76,13 +76,14 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .button {
   color: #212121;
   background-color: #f5f4fa;
   border: none;
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
 }
 
 .hero-button {
@@ -116,6 +117,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .our-team-section .title {
